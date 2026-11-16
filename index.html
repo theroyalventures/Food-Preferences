@@ -288,7 +288,7 @@ form.addEventListener("submit", async e=>{
       localStorage.setItem("offerCode", result.offerCode);
       localStorage.setItem("customerName", formData.get("name"));
     }
-    window.location.href="offer.html";
+    window.location.href="thankyou.html";
   }catch(err){
     alert("Submission failed. Please try again.");
     document.getElementById("loadingOverlay").style.display="none";
